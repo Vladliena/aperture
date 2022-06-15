@@ -10,32 +10,40 @@
     font-style: normal;
     font-display: swap;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
+    font-family: 'Poppins';
 }
-header{
+
+header {
     background-color: black;
     padding: 24px 0;
 }
-.container{
+
+.container {
     max-width: 1168px;
     margin: auto;
 }
-header .container{
+
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header nav ul{
+
+header nav ul {
     list-style: none;
     display: flex;
     align-items: center;
 }
-header nav ul li{
+
+header nav ul li {
     margin-left: 32px;
 }
-header nav a{
+
+header nav a {
     text-decoration: none;
     font-weight: 400;
     font-size: 15px;
@@ -43,32 +51,36 @@ header nav a{
     color: #FFFFFF;
     display: inline-block;
     transition: 0.3s;
-    font-family: 'Poppins';
 }
-header nav ul li:first-of-type{
+
+header nav ul li:first-of-type {
     margin-right: 24px;
 }
-header nav ul li:first-of-type a{
+
+header nav ul li:first-of-type a {
     font-size: 13px;
 }
-header nav ul li:last-of-type{
+
+header nav ul li:last-of-type {
     margin-left: 31px;
 }
-header nav ul li:last-of-type a{
+
+header nav ul li:last-of-type a {
     padding: 11px 20px;
     background-color: #FFFFFF;
     border-radius: 14px;
-    font-family: 'Poppins';
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     color: #000000;
 }
-header nav ul li a:hover{
+
+header nav ul li a:hover {
     transform: scale(1.1);
 }
+
 /*main banner section*/
-.main-banner{
+.main-banner {
     background-image: url("../images/image.jpg");
     background-size: cover;
     height: 78vh;
@@ -78,13 +90,14 @@ header nav ul li a:hover{
     padding-bottom: 71px;
     position: relative;
 }
-.main-banner .container{
+
+.main-banner .container {
     max-width: 580px;
     margin: inherit;
     text-align: center;
 }
-.main-banner h3{
-    font-family: 'Poppins';
+
+.main-banner h3 {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -93,40 +106,42 @@ header nav ul li a:hover{
     text-transform: uppercase;
     color: #C0C0C0;
 }
-.main-banner h1{
-    font-family: 'Poppins';
+
+.main-banner h1 {
     font-style: normal;
     font-weight: 400;
     font-size: 54px;
     line-height: 59px;
     color: #FFFFFF;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
 }
-.main-banner p{
-    font-family: 'Poppins';
+
+.main-banner p {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
 }
-.components{
+
+.components {
     display: flex;
     position: absolute;
     right: 40px;
     bottom: 41px;
     list-style: none;
 }
-.components li{
+
+.components li {
     margin-left: 16px;
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 12px;
     color: #FFFFFF;
 }
-.components li:before{
+
+.components li:before {
     content: "";
     display: inline-block;
     background-image: url("../images/icon_4.svg");
@@ -136,107 +151,96 @@ header nav ul li a:hover{
     position: relative;
     top: 7px;
 }
-.components li:nth-child(2):before{
+
+.components li:nth-child(2):before {
     background-image: url("../images/icon_3.svg");
 }
-.components li:nth-child(3):before{
+
+.components li:nth-child(3):before {
     background-image: url("../images/icon_2.svg");
     width: 32px;
 }
-.components li:last-of-type:before{
+
+.components li:last-of-type:before {
     background-image: url("../images/icon_1.svg");
     width: 10px;
 }
-/*second banner*/
-.second-banner{
-    background-image: url("../images/background1.jpg");
+
+/*whatwedo_section*/
+.whatwedo_section {
+    background-color: black;
     background-size: cover;
-    height: 78vh;
-    position: relative;
-}
-/*third banner*/
-.third-banner{
-    background-image: url("../images/background2.jpg");
-    background-size: cover;
-    height: 78vh;
-    position: relative;
-}
-/*fourth banner*/
-.fourth-banner{
-    background-color: #000000;
-    background-size: cover;
-    position: relative;
-    padding-top: 113px;
-    padding-bottom: 140px;
     text-align: center;
-    align-content: center;
-}
-.fourth-banner h2{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 42px;
-    color: #FFFFFF;
-    margin-bottom: 15px;
-}
-.fourth-banner h3{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
-    color: #C0C0C0;
-    margin-bottom: 111px;
-}
-.fourth-banner .partners{
-    max-width: 1168px;
+    padding: 113px 0 100px;
     margin: auto;
+}
+
+.whatwedo_section .container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
 }
-/*fifth banner*/
-.fifth-banner{
-    background-image: url("../images/background3.jpg");
-    background-size: cover;
-    height: 78vh;
+
+.whatwedo_photos {
     position: relative;
+    max-width: 576px;
 }
-/*last banner*/
-.last-banner{
-    background-color: #000000;
-    background-size: cover;
-    position: relative;
-    padding-top: 113px;
-    padding-bottom: 108px;
-    align-content: center;
-    text-align: center;
+
+.whatwedo_photos img {
+    width: 100%;
 }
-.last-banner h2{
-    font-family: 'Poppins';
-    font-style: normal;
+
+.whatwedo_section .container img:nth-child(-n+2) {
+    margin-bottom: 16px;
+}
+
+.whatwedo_section .whatwedo_text H3 {
+    color: #FFFFFF;
     font-weight: 400;
     font-size: 40px;
     line-height: 42px;
+    margin-bottom: 15px;
+}
+
+.whatwedo_section .whatwedo_text p {
+    color: #C0C0C0;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    margin-bottom: 42px;
+}
+
+.whatwedo_photos div h4 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 15px;
 }
-.last-banner h3{
-    font-family: 'Poppins';
-    font-style: normal;
+
+.whatwedo_photos div p {
     font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 20px;
     color: #C0C0C0;
-    margin-bottom: 22px;
+    margin-bottom: 17px;
 }
-.last-banner a{
+
+.whatwedo_photos div {
+    position: absolute;
+    top: 421px;
+    left: 30px;
+    max-width: 516px;
+    text-align: left;
+}
+
+.whatwedo_photos div a {
     padding: 13px 10px;
     background-color: #FFFFFF;
     border-radius: 14px;
     text-decoration: none;
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -245,7 +249,124 @@ header nav ul li a:hover{
     color: #000000;
     margin: auto;
 }
-.last-banner a:before{
+
+.whatwedo_photos div a:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    right: 6px;
+    background-color: black;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+/*second banner*/
+.second-banner {
+    background-image: url("../images/background1.jpg");
+    background-size: cover;
+    height: 78vh;
+    position: relative;
+}
+
+/*third banner*/
+.third-banner {
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+    height: 78vh;
+    position: relative;
+}
+
+/*fourth banner*/
+.fourth-banner {
+    background-color: #000000;
+    background-size: cover;
+    position: relative;
+    padding-top: 113px;
+    padding-bottom: 140px;
+    text-align: center;
+    align-content: center;
+}
+
+.fourth-banner h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.fourth-banner h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #C0C0C0;
+    margin-bottom: 111px;
+}
+
+.fourth-banner .partners {
+    max-width: 1168px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*fifth banner*/
+.fifth-banner {
+    background-image: url("../images/background3.jpg");
+    background-size: cover;
+    height: 78vh;
+    position: relative;
+}
+
+/*last banner*/
+.last-banner {
+    background-color: #000000;
+    background-size: cover;
+    position: relative;
+    padding-top: 113px;
+    padding-bottom: 108px;
+    align-content: center;
+    text-align: center;
+}
+
+.last-banner h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.last-banner h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #C0C0C0;
+    margin-bottom: 22px;
+}
+
+.last-banner a {
+    padding: 13px 10px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    margin: auto;
+}
+
+.last-banner a:before {
     content: "";
     display: inline-block;
     position: relative;
