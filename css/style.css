@@ -230,7 +230,7 @@ header nav ul li a:hover {
 
 .whatwedo_photos div {
     position: absolute;
-    top: 421px;
+    top: 401px;
     left: 30px;
     max-width: 516px;
     text-align: left;
@@ -268,6 +268,28 @@ header nav ul li a:hover {
     background-size: cover;
     height: 78vh;
     position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.banner_text{
+    max-width: 298px;
+    position: relative;
+    right: 62px;
+}
+.banner_text h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.banner_text p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
 }
 
 /*third banner*/
@@ -276,6 +298,9 @@ header nav ul li a:hover {
     background-size: cover;
     height: 78vh;
     position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 /*fourth banner*/
@@ -321,6 +346,9 @@ header nav ul li a:hover {
     background-size: cover;
     height: 78vh;
     position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 /*last banner*/
