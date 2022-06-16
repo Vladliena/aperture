@@ -35,7 +35,16 @@
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
+    .burger_menu{
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 18px;
+    }
+    header nav ul {
+        display: none;
+    }
 
     .main-banner{
         flex-direction: column;
@@ -76,10 +85,6 @@ justify-content: center;
 }
 
 @media only screen and (max-width: 420px) {
-    .components{
-        position: inherit;
-        right: 10px;
-    }
     .partners {
         flex-direction: column;
         align-items: center;
@@ -87,7 +92,7 @@ justify-content: center;
     }
 
     .partners a {
-        margin-bottom: 40px;
+        margin-bottom: 80px;
     }
 
     .main-banner {
@@ -103,11 +108,15 @@ justify-content: center;
     .main-banner .container {
         max-width: 330px;
     }
-    .whatwedo_photos div{
-        top: 100px;
+.toolsweuse_section{
+    padding-top: 50px;
+}
+    .whatwedo_section .container .whatwedo_photos div {
+        top: 50px;
     }
-    .toolsweuse_section{
-        display: inherit;
+    .toolsweuse_section .toolweuse_text{
+        position: static;
+        left: 0;
     }
 }
 
