@@ -272,12 +272,14 @@ header nav ul li a:hover {
     justify-content: flex-end;
     align-items: center;
 }
-.banner_text{
+
+.banner_text {
     max-width: 298px;
     position: relative;
     right: 62px;
 }
-.banner_text h3{
+
+.banner_text h3 {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -285,11 +287,89 @@ header nav ul li a:hover {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.banner_text p{
+
+.banner_text p {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
+}
+
+/*toolsweuse_section*/
+.toolsweuse_section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: black;
+    background-size: cover;
+    position: relative;
+}
+
+.toolweuse_text {
+    align-items: center;
+    text-align: left;
+    margin: auto;
+    max-width: 514px;
+}
+
+.toolweuse_text h4 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+}
+
+.toolweuse_text h3 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+
+.toolweuse_text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.toolweuse_text a {
+    padding: 13px 10px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    margin: auto;
+}
+
+.toolweuse_text a:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    right: 6px;
+    background-color: black;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.toolsweuse_photo {
+    max-width: 720px;
+}
+
+.toolsweuse_photo img {
+    width: 100%;
+    height: 100%;
 }
 
 /*third banner*/

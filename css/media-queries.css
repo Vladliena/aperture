@@ -1,5 +1,114 @@
+@media only screen and (max-width: 992px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    .whatwedo_section .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 50px;
+
+    }
+
+    .container .whatwedo_photos {
+        max-width: 430px;
+    }
+
+    .whatwedo_section .container .whatwedo_photos div {
+        max-width: 380px;
+        align-items: center;
+        top: 220px;
+    }
+
+    .toolsweuse_section .toolweuse_text {
+        max-width: 400px;
+        position: relative;
+        left: 15px;
+    }
+
+    .toolsweuse_section .toolsweuse_photo {
+        max-width: 550px;
+    }
+
+    .fourth-banner {
+        padding: 100px 40px 120px;
+    }
+}
 
 @media only screen and (max-width: 767px) {
+
+    .main-banner{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        margin: auto;
+
+    }
+
+    .whatwedo_section {
+        flex-direction: column;
+        padding: inherit;
+    }
+
+    .whatwedo_section .whatwedo_photos {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        display: flex;
+        max-width: 750px;
+    }
+
+    .whatwedo_section .whatwedo_photos div {
+        max-width: 370px;
+    }
+.toolsweuse_section{
+justify-content: center;
+    display: inherit;
 }
+.toolsweuse_section .toolweuse_text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+    .toolsweuse_section .toolsweuse_photo {
+        max-width: 900px;
+    }
+}
+
 @media only screen and (max-width: 420px) {
+    .components{
+        position: inherit;
+        right: 10px;
+    }
+    .partners {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .partners a {
+        margin-bottom: 40px;
+    }
+
+    .main-banner {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+
+    .main-banner p {
+        margin-bottom: 150px;
+    }
+
+    .main-banner .container {
+        max-width: 330px;
+    }
+    .whatwedo_photos div{
+        top: 100px;
+    }
+    .toolsweuse_section{
+        display: inherit;
+    }
 }
+
+
