@@ -78,14 +78,15 @@ header nav ul li:last-of-type a {
 header nav ul li a:hover {
     transform: scale(1.1);
 }
+
 /*burger_menu*/
-.burger_menu{
+.burger_menu {
     width: 40px;
     height: 30px;
     display: none;
 }
 
-.burger_menu span{
+.burger_menu span {
     display: block;
     height: 3px;
     width: 100%;
@@ -94,15 +95,8 @@ header nav ul li a:hover {
     left: 0;
     top: 14px;
 }
-.burger_menu::after{
-    content: "";
-    position: absolute;
-    width: 40px;
-    height: 3px;
-    background-color: #ffff;
-    left: 0;
-}
-.burger_menu::before{
+
+.burger_menu::after {
     content: "";
     position: absolute;
     width: 40px;
@@ -111,11 +105,20 @@ header nav ul li a:hover {
     left: 0;
 }
 
-.burger_menu::before{
+.burger_menu::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: #ffff;
+    left: 0;
+}
+
+.burger_menu::before {
     top: 0;
 }
 
-.burger_menu::after{
+.burger_menu::after {
     bottom: 0;
 }
 
@@ -452,12 +455,21 @@ header nav ul li a:hover {
     margin-bottom: 111px;
 }
 
-.fourth-banner .partners {
-    max-width: 1168px;
-    margin: auto;
+
+.fourth-banner a {
+    display: inline-block;
+    max-width: 128px;
+}
+
+.owl-stage {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.owl-carousel {
+    max-width: 1300px;
+    margin: auto;
 }
 
 /*fifth banner*/
@@ -524,4 +536,32 @@ header nav ul li a:hover {
     border-radius: 50%;
     width: 32px;
     height: 32px;
+}
+
+.owl-nav .owl-prev:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f053";
+    font-size: 30px;
+    color: #FFFFFF;
+    position: relative;
+    right: 10px;
+}
+
+.owl-nav .owl-next:before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f054";
+    font-size: 30px;
+    color: #FFFFFF;
+    position: relative;
+    left: 10px;
+}
+
+.owl-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 23px;
 }

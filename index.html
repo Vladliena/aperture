@@ -1,14 +1,21 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <title>Document</title>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
 <header>
@@ -42,9 +49,9 @@
 </header>
 <section class="main-banner">
     <div class="container">
-        <h3>Photographer & Filmmaker</h3>
-        <h1>Aperture Studios</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+        <h3 class="animate__animated animate__fadeIn animate__delay-1s">Photographer & Filmmaker</h3>
+        <h1 class="animate__animated animate__fadeIn animate__delay-1s">Aperture Studios</h1>
+        <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
             Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean
             faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
         </p>
@@ -58,10 +65,10 @@
 </section>
 <section class="whatwedo_section">
     <div class="whatwedo_text">
-        <H3>What we do.</H3>
-        <p>The areas that we're specialized in.</p>
+        <H3 class="wow fadeIn">What we do.</H3>
+        <p class="wow fadeIn" data-wow-delay="0.5s">The areas that we're specialized in.</p>
     </div>
-    <div class="container">
+    <div class="container wow fadeInLeft">
         <div class="whatwedo_photos"><img src="images/IMAGE%200.jpg" alt="image">
             <div>
                 <h4>Product Photography</h4>
@@ -80,7 +87,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container wow fadeInRight" data-wow-delay="0.5s">
         <div class="whatwedo_photos"><img src="images/IMAGE(2).jpg" alt="image">
             <div>
                 <h4>Drone Photography</h4>
@@ -102,7 +109,7 @@
     </div>
 </section>
 <section class="toolsweuse_section">
-    <div class="toolweuse_text">
+    <div class="toolweuse_text wow fadeInLeft">
         <h4>The Gear cage</h4>
         <h3>The tools that we use.</h3>
         <p>The say that "no place is boring if you've had a good night's sleep and have a pocket full of unexposed
@@ -110,7 +117,7 @@
             everyday to capture the amazing things around us.</p>
         <a href="#" target="_blank">Read more</a>
     </div>
-    <div class="toolsweuse_photo">
+    <div class="toolsweuse_photo wow fadeInRight" data-wow-delay="0.5s">
         <img src="images/cameras.jpg" alt="photo">
     </div>
     <ul class="components">
@@ -149,10 +156,10 @@
 </section>
 <section class="fourth-banner">
     <div class="container">
-        <h2>Past clients</h2>
-        <h3>Trusted by your favourite companies</h3>
+        <h2 class="wow fadeIn">Past clients</h2>
+        <h3 class="wow fadeIn" data-wow-delay="0.5s">Trusted by your favourite companies</h3>
     </div>
-    <div class="partners">
+    <div class="owl-carousel">
         <a href="#" target="_blank">
             <img src="images/logo1.png" alt="logo">
         </a>
@@ -168,6 +175,22 @@
         <a href="#" target="_blank">
             <img src="images/logo5.png" alt="logo">
         </a>
+        <a href="#" target="_blank">
+            <img src="images/logo1.png" alt="logo">
+        </a>
+        <a href="#" target="_blank">
+            <img src="images/logo2.png" alt="logo">
+        </a>
+        <a href="#" target="_blank">
+            <img src="images/logo3.png" alt="logo">
+        </a>
+        <a href="#" target="_blank">
+            <img src="images/logo4.png" alt="logo">
+        </a>
+        <a href="#" target="_blank">
+            <img src="images/logo5.png" alt="logo">
+        </a>
+        </div>
     </div>
 </section>
 <section class="fifth-banner">
@@ -185,12 +208,21 @@
 </section>
 <section class="last-banner">
     <div class="container">
-        <h2>Need help with photography or videography?</h2>
-        <h3>We're here for you!</h3>
+        <h2 class="wow fadeIn">Need help with photography or videography?</h2>
+        <h3 class="wow fadeIn" data-wow-delay="0.5s">We're here for you!</h3>
     </div>
     <a href="#" target="_blank">Get in touch</a>
 </section>
-<footer>
-</footer>
+<i class="fa-solid fa-chevron-left"></i>
+<script src="https://kit.fontawesome.com/1d44a8dca7.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 </body>
 </html>
