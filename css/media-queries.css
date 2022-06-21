@@ -29,10 +29,6 @@
     .toolsweuse_section .toolsweuse_photo {
         max-width: 550px;
     }
-
-    .fourth-banner {
-        padding: 100px 40px 120px;
-    }
 }
 
 @media only screen and (max-width: 768px) {

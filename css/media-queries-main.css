@@ -1,0 +1,142 @@
+@media only screen and (max-width: 1200px) {
+    .whatwedo_section .container {
+        justify-content: center;
+    }
+
+    .toolweuse_text h3 {
+        font-size: 25px;
+    }
+
+    .owl-nav {
+        display: inherit;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .toolsweuse_container {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .toolweuse_text {
+        margin-bottom: 50px;
+        text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .toolsweuse_photo {
+        max-width: inherit;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+    .burger_menu {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 18px;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    .fourth-banner .container h2 {
+        font-size: 35px;
+    }
+
+    .last-banner .container h2 {
+        font-size: 35px;
+    }
+
+    .main-banner h1 {
+        font-size: 40px;
+    }
+
+    .second-banner {
+        text-align: center;
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    .third-banner {
+        text-align: center;
+        justify-content: center;
+        padding-right: 0;
+    }
+
+    .fifth-banner {
+        text-align: center;
+        justify-content: center;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .fourth-banner .container h2 {
+        font-size: 30px;
+    }
+
+    .last-banner .container h2 {
+        font-size: 30px;
+    }
+
+    .main-banner h1 {
+        font-size: 35px;
+    }
+
+    .whatwedo_section .whatwedo_text H3 {
+        font-size: 30px;
+    }
+
+    .whatwedo_section .whatwedo_text {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .fourth-banner .container h2 {
+        font-size: 25px;
+    }
+
+    .last-banner .container h2 {
+        font-size: 25px;
+    }
+
+    .main-banner h1 {
+        font-size: 30px;
+    }
+
+    .whatwedo_section .whatwedo_text H3 {
+        font-size: 25px;
+    }
+
+    .whatwedo_section .whatwedo_text p {
+        font-size: 18px;
+    }
+
+    .fourth-banner .container p {
+        font-size: 18px;
+    }
+
+    .last-banner .container p {
+        font-size: 18px;
+    }
+
+    .components li {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}
