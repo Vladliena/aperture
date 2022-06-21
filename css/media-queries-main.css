@@ -69,6 +69,9 @@
         justify-content: center;
         padding-right: 0;
     }
+    .third-banner .components {
+        right: 20px;
+    }
 
     .fifth-banner {
         text-align: center;
@@ -130,9 +133,6 @@
 
     .components li {
         font-size: 11px;
-    }
-    .third-banner .components {
-        right: 20px;
     }
 }
 
