@@ -131,6 +131,9 @@
     .components li {
         font-size: 11px;
     }
+    .third-banner .components{
+        right: 20px;
+    }
 }
 
 @media only screen and (max-width: 360px) {
