@@ -31,10 +31,6 @@
 }
 
 @media only screen and (max-width: 992px) {
-
-}
-
-@media only screen and (max-width: 767px) {
     .header-wrapper{
         width: calc(100% - 100px);
     }
@@ -58,16 +54,13 @@
         opacity: 0;
         margin-left: inherit;
     }
-.nav__list{
-    align-items: inherit;
-    display: inherit;
-}
-    .burger_menu {
-        display: block;
-        position: absolute;
-        right: 10px;
-        top: 18px;
+    .nav__list{
+        align-items: inherit;
+        display: inherit;
     }
+}
+
+@media only screen and (max-width: 767px) {
 
     .fourth-banner .container h2 {
         font-size: 35px;
