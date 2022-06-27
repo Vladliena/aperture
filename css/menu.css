@@ -277,22 +277,10 @@
 }
 
 .nav__list-item:last-of-type a:hover{
-    color: #000000;
-    animation: animation-haniwaman .3s linear 0s infinite normal;
+    transform: scale(1.1);
+    color: #1f2029;
 }
-@keyframes animation-haniwaman {
-    0%{
-        transform: translate3d(0, 0, 0);
-    }
 
-    50% {
-        transform: translate3d(0,3px, 0);
-    }
-
-    100%{
-        transform: translate3d(0, 0, 0);
-    }
-}
 
 .nav__list-item.active-nav a:after{
     display: none;
