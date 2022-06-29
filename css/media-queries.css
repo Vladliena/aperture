@@ -43,15 +43,6 @@
         left: -60px;
     }
 
-    .nav__list-item {
-        font-style: normal;
-        font-weight: 900;
-        font-size: 30px;
-        opacity: 0;
-        margin-left: inherit;
-        margin-bottom: 25px;
-    }
-
     .nav__list-item:first-of-type a {
         font-style: normal;
         font-size: 19px;

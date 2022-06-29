@@ -1,0 +1,76 @@
+@import "menu.css";
+@import "style.css";
+@import "animate.css";
+@import "normalize.css";
+@import "owl.carousel.css";
+@import "owl.theme.default.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
+
+$main_font: 'Poppins';
+$main_color: black;
+$main_font_color: white;
+
+.whatwedo_section {
+  background-color: $main_color;
+  background-size: cover;
+  padding: 113px 0 100px;
+}
+
+.nav__list-item {
+  position: relative;
+  display: block;
+  -webkit-transition-delay: 0.8s;
+  transition-delay: 0.8s;
+  opacity: 1;
+  text-align: center;
+  overflow: inherit;
+  font-family: $main_font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: $main_font_color;
+  -webkit-transform: inherit;
+  transform: inherit;
+  -webkit-transition: opacity .2s ease, -webkit-transform .3s ease;
+  transition: opacity .2s ease, -webkit-transform .3s ease;
+  transition: opacity .2s ease, transform .3s ease;
+  transition: opacity .2s ease, transform .3s ease, -webkit-transform .3s ease;
+  margin-top: 0;
+  margin-bottom: 0;
+  @include max-screen(992px){
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    opacity: 0;
+    margin-left: inherit;
+    margin-bottom: 25px;
+  }
+}
+
+header {
+  background-color: black;
+  padding: 24px 0;
+  .container{
+    max-width: 1168px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
